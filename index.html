@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/matter.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+<!--Link game.js e player.js-->
+   
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+<!--Adicione configuração do banco de dados abaixo-->
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+<script>
+  // Configuração do Firebase do seu aplicativo da web
+  const firebaseConfig = {
+    apiKey: "AIzaSyCWPvLw7x4Fp20Zi1oJO1x-cVnkB4Uv6h8",
+  authDomain: "cesta-de-fruta.firebaseapp.com",
+  databaseURL: "https://cesta-de-fruta-default-rtdb.firebaseio.com",
+  projectId: "cesta-de-fruta",
+  storageBucket: "cesta-de-fruta.appspot.com",
+  messagingSenderId: "1023648147322",
+  appId: "1:1023648147322:web:07dc04eb26f5ab493518c3"
+  };
+  // Inicializar Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
